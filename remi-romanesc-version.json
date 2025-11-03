@@ -2,13 +2,14 @@
   "latestVersion": "1.0.3",
   "minimumVersion": "1.0.3",
   "storeLinks": {
-    "android": "https://play.google.com/store/apps/details?id=com.xvs.RemiRomanesc",
+    "android": "https://play.google.com/store/apps/details?id=com.xvs.RemiRomanesc&pcampaignid=web_share",
     "ios": "https://apps.apple.com/app/idXXXXXXXXXX",
     "windows": "https://www.microsoft.com/store/apps/XXXXXXXXXX"
   },
   "updateMessage": "O versiune noua a jocului este disponibila! Te rugam sa actualizezi pentru a continua.",
   "forceUpdate": true
 }
+
 
 
 
