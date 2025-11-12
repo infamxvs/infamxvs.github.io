@@ -97,111 +97,214 @@
 <body>
     <div class="container">
         <h1>Politica de Ștergere Date - Remi Romanesc</h1>
-        <p class="last-updated">Ultima actualizare: 3 Noiembrie 2025</p>
+        <p class="last-updated">Ultima actualizare: 12 Noiembrie 2025</p>
 
-        <h2>1. Informații generale</h2>
+        <h2>1. Informatii generale</h2>
         <div class="info-box">
-            <strong>Informație importantă:</strong> Remi Romanesc este un joc complet offline care <strong>NU colectează și NU transmite date personale</strong> către servere externe sau dezvoltator.
+            <strong>Informatie importanta:</strong> Remi Romanesc colecteaza si stocheaza date personale pe serverele Google Firebase pentru functionarea contului de utilizator. Aveti dreptul complet la stergerea contului si a TUTUROR datelor asociate conform GDPR.
         </div>
 
-        <p>Toate datele generate de joc (preferințe, scoruri, progres) sunt salvate <strong>exclusiv local pe dispozitivul dumneavoastră</strong> și nu sunt sincronizate cu cloud-ul sau transmise către noi.</p>
+        <p>Aceasta politica descrie procedura completa pentru stergerea contului dumneavoastra si a tuturor datelor personale asociate din sistemele noastre (Firebase Authentication si Cloud Firestore).</p>
 
-        <h2>2. Ce date sunt stocate local?</h2>
-        <p>Singurele date salvate pe dispozitivul dumneavoastră sunt:</p>
+        <h2>2. Ce date sunt stocate pe serverele Firebase?</h2>
+        <p>Contul dumneavoastra Remi Romanesc contine urmatoarele date personale stocate pe Google Firebase:</p>
+        
+        <h3>2.1 Firebase Authentication</h3>
         <ul>
-            <li><strong>Setări de joc:</strong> Preferințe pentru Joker Lansat, Joker Schimbat</li>
-            <li><strong>Progres curent:</strong> Scoruri runde și meciuri în desfășurare</li>
-            <li><strong>Fără date personale:</strong> NU salvăm nume, email, locație sau alte informații personale</li>
+            <li><strong>User ID unic (UID):</strong> Identificator generat automat</li>
+            <li><strong>Adresa de email:</strong> Email folosit pentru autentificare</li>
+            <li><strong>Parola (hash):</strong> Parola criptata - nu putem vedea parola in clar</li>
+            <li><strong>Email verification status:</strong> Stare verificare email</li>
+            <li><strong>Metadata autentificare:</strong> Data crearii contului, ultima autentificare</li>
         </ul>
 
-        <h2>3. Cum să ștergeți datele aplicației</h2>
-        
-        <h3>Metodă 1: Ștergere date din setările Android</h3>
+        <h3>2.2 Cloud Firestore Database</h3>
+        <ul>
+            <li><strong>Screenname:</strong> Numele de utilizator ales</li>
+            <li><strong>Email:</strong> Copia email-ului din Authentication</li>
+            <li><strong>Total fise:</strong> Soldul virtual de fise in joc (inclusiv solduri negative)</li>
+            <li><strong>Avatar ID:</strong> ID-ul avatar-ului selectat</li>
+            <li><strong>Timestamps:</strong> Data crearii contului (createdAt), ultima autentificare (lastLoginAt)</li>
+        </ul>
+
+        <h3>2.3 Session Data (temporare)</h3>
+        <ul>
+            <li><strong>Session tokens:</strong> Tokeni de sesiune activa (expira automat dupa 30 zile)</li>
+            <li><strong>Device info:</strong> Informatii tehnice colectate de Firebase (NU sunt salvate permanent in baza noastra)</li>
+        </ul>
+
+        <h2>3. Procedura COMPLETA stergere cont si date</h2>
+        <p><strong>IMPORTANT:</strong> Stergerea datelor locale prin Setari Android NU sterge contul din Firebase! Pentru stergere COMPLETA, trebuie sa urmati procedura de mai jos.</p>
+
+        <h3>3.1 Cerere stergere cont prin email (METODA OBLIGATORIE)</h3>
         <div class="steps">
             <div class="step">
                 <div class="step-number">1</div>
-                <strong>Deschideți Setările</strong> dispozitivului Android
+                <strong>Trimiteti email la:</strong> <a href="mailto:contact@xvsgames.com">contact@xvsgames.com</a>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                Navigați la <strong>Aplicații</strong> sau <strong>Apps</strong>
+                <strong>Subiect (Subject):</strong> "Stergere Cont Remi Romanesc"
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                Găsiți și selectați <strong>Remi Romanesc</strong>
+                <strong>Include in email:</strong><br>
+                - Adresa de email asociata contului dumneavoastra<br>
+                - (Optional) Screenname-ul dumneavoastra pentru identificare rapida<br>
+                - Confirmarea ca doriti stergerea PERMANENTA a contului
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                Apăsați pe <strong>Stocare</strong> sau <strong>Storage</strong>
+                <strong>Verificare identitate:</strong> Vom trimite un link de verificare la adresa de email din cont pentru a confirma ca sunteti proprietarul contului
             </div>
             <div class="step">
                 <div class="step-number">5</div>
-                Apăsați <strong>Șterge date</strong> sau <strong>Clear data</strong>
+                <strong>Confirmati solicitarea:</strong> Dati click pe link-ul de verificare primit prin email (link-ul expira dupa 24 ore)
             </div>
             <div class="step">
                 <div class="step-number">6</div>
-                Confirmați acțiunea
+                <strong>Procesare stergere:</strong> Vom sterge COMPLET toate datele in 24-48 ore (de obicei mai rapid)
+            </div>
+            <div class="step">
+                <div class="step-number">7</div>
+                <strong>Confirmare finalizare:</strong> Veti primi email de confirmare ca stergerea a fost finalizata cu succes
             </div>
         </div>
 
         <div class="warning-box">
-            <strong>Atenție:</strong> Ștergerea datelor va reseta toate preferințele și scorurile salvate în joc. Această acțiune nu poate fi anulată.
+            <strong>Atentie - Actiune IREVERSIBILA:</strong><br>
+            • Stergerea contului este PERMANENTA si nu poate fi anulata<br>
+            • TOATE datele vor fi sterse complet (email, screenname, progres, fise)<br>
+            • NU puteti recupera contul sau datele dupa stergere<br>
+            • Veti putea crea un cont NOU cu acelasi email dupa stergere (cont nou de la zero)
         </div>
 
-        <h3>Metodă 2: Dezinstalare aplicație</h3>
-        <p>Dezinstalarea completă a aplicației Remi Romanesc va șterge automat toate datele asociate cu jocul:</p>
+        <h3>3.2 Ce se sterge EXACT?</h3>
+        <p>La procesarea cererii de stergere, vom sterge COMPLET si INSTANT urmatoarele:</p>
         <ul>
-            <li>Mențineți apăsat pe iconița aplicației pe ecranul principal</li>
-            <li>Selectați <strong>Dezinstalare</strong> sau <strong>Uninstall</strong></li>
-            <li>Confirmați acțiunea</li>
+            <li><strong>Firebase Authentication:</strong> User ID (UID), email, parola hash, email verification status, toate metadata-urile contului</li>
+            <li><strong>Cloud Firestore:</strong> Document complet cu screenname, email, totalFise, avatarId, createdAt, lastLoginAt</li>
+            <li><strong>Session tokens:</strong> Invalidare automata a tuturor sesiunilor active (logout fortat de pe toate dispozitivele)</li>
+            <li><strong>Istoric joc:</strong> Toate datele de progres, scoruri, istoric runde</li>
         </ul>
 
-        <h2>4. Cerere de ștergere date de la dezvoltator</h2>
+        <h3>3.3 Ce NU se sterge (date tehnice minimale Firebase)</h3>
+        <p><strong>ZERO log-uri pastrate!</strong> Conform raspunsului dumneavoastra, stergem TOTUL instant fara a pastra log-uri de securitate.</p>
+        <p>Singurele date care pot ramane sunt log-uri automate de sistem generate de infrastructura Google Firebase (IP-uri, request logs) care:</p>
+        <ul>
+            <li>NU sunt accesate sau controlate de noi direct (sunt log-uri interne Google)</li>
+            <li>Se sterg automat conform politicii de retentie Google (30-90 zile)</li>
+            <li>NU contin date personale identificabile dupa stergerea contului</li>
+        </ul>
+
+        <h2>4. Timeline procesare cerere</h2>
         <div class="info-box">
-            <strong>Nu este necesar!</strong> Deoarece nu colectăm și nu stocăm date pe serverele noastre, nu există date pe care să le ștergem din partea dezvoltatorului.
+            <strong>Timp procesare standard: 24-48 ore</strong><br>
+            De obicei procesam cererile mai rapid (in cateva ore), dar garantam finalizarea in maximum 48 ore lucratoare de la confirmarea verificarii identitatii.
         </div>
 
-        <p>Cu toate acestea, dacă aveți întrebări sau preocupări, ne puteți contacta:</p>
-
-        <div class="contact-info">
-            <h3>Informații de contact</h3>
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:contact@xvsgames.com">contact@xvsgames.com</a></li>
-                <li><strong>Website:</strong> <a href="https://infamxvs.github.io" target="_blank">https://infamxvs.github.io</a></li>
-                <li><strong>Privacy Policy:</strong> <a href="https://infamxvs.github.io/remi-romanesc-privacy.html" target="_blank">Politica de Confidențialitate</a></li>
-            </ul>
-        </div>
-
-        <h2>5. Ce se întâmplă după ștergerea datelor?</h2>
-        <p>După ștergerea datelor locale:</p>
+        <h3>4.1 Flow cronologic complet</h3>
         <ul>
-            <li>✅ Aplicația va porni ca și cum ar fi prima dată</li>
-            <li>✅ Toate setările vor reveni la valorile default</li>
-            <li>✅ Toate scorurile și progresul vor fi resetate</li>
-            <li>✅ Puteți începe jocul de la zero</li>
+            <li><strong>T+0 ore:</strong> Primiti email-ul cu cererea de stergere</li>
+            <li><strong>T+1-4 ore:</strong> Trimitem link verificare identitate (in ore de program 9:00-18:00 EET)</li>
+            <li><strong>T+4-24 ore:</strong> Asteptam confirmarea dumneavoastra prin click link (link expira dupa 24h)</li>
+            <li><strong>T+24-48 ore:</strong> Procesam stergerea COMPLETA din Firebase Authentication + Firestore</li>
+            <li><strong>T+48 ore MAX:</strong> Trimiteti email confirmare finalizare stergere</li>
         </ul>
 
-        <h2>6. Confirmarea ștergerii</h2>
-        <p>Deoarece datele sunt stocate doar local pe dispozitiv, confirmarea ștergerii este imediată:</p>
+        <h3>4.2 Ce se intampla INSTANT la procesare?</h3>
         <ul>
-            <li>Nu trebuie să așteptați procesarea cererii</li>
-            <li>Nu există sincronizare cu servere externe</li>
-            <li>Ștergerea este instant efectivă</li>
+            <li>✅ Contul Firebase Authentication este STERS complet (email, UID, toate metadata-uri)</li>
+            <li>✅ Documentul Firestore este STERS complet (toate campurile: email, screenname, totalFise, avatarId, timestamps)</li>
+            <li>✅ Toate session tokens sunt INVALIDATE (logout fortat de pe toate dispozitivele)</li>
+            <li>✅ Email-ul devine disponibil pentru crearea unui cont NOU (daca doriti)</li>
         </ul>
 
-        <h2>7. Întrebări frecvente</h2>
+        <h2>5. Stergere date locale de pe dispozitiv (OPTIONAL)</h2>
+        <p><strong>ATENTIE:</strong> Aceasta metoda sterge DOAR datele locale (cache, session), NU sterge contul din Firebase!</p>
         
-        <h3>Pot recupera datele după ștergere?</h3>
-        <p><strong>Nu.</strong> Odată ce datele au fost șterse din setările Android, acestea nu pot fi recuperate. Vă recomandăm să vă asigurați că doriți să ștergeți datele înainte de a confirma.</p>
+        <h3>5.1 Metoda 1: Stergere date din Setari Android</h3>
+        <ul>
+            <li>Deschideti Setari → Aplicatii → Remi Romanesc</li>
+            <li>Apasati Stocare → Sterge date</li>
+            <li>Confirmati actiunea</li>
+        </ul>
+        <p><strong>Rezultat:</strong> Logout automat din aplicatie, cache sters, DAR contul ramane activ in Firebase!</p>
 
-        <h3>Datele mele sunt partajate cu alții?</h3>
-        <p><strong>Nu.</strong> Remi Romanesc nu transmite nicio dată către servere, alte aplicații sau terțe părți. Jocul funcționează complet offline.</p>
+        <h3>5.2 Metoda 2: Dezinstalare aplicatie</h3>
+        <ul>
+            <li>Mentineti apasat pe iconita aplicatiei</li>
+            <li>Selectati Dezinstalare</li>
+            <li>Confirmati actiunea</li>
+        </ul>
+        <p><strong>Rezultat:</strong> Aplicatia este stearsa de pe dispozitiv, DAR contul ramane activ in Firebase! Puteti reinstala si face login cu acelasi cont.</p>
 
-        <h3>Trebuie să creez cont pentru a juca?</h3>
-        <p><strong>Nu.</strong> Jocul nu necesită autentificare, cont sau conexiune la internet. Jucați instant fără date personale.</p>
+        <h2>6. Ce se intampla DUPA stergerea contului?</h2>
+        <p>Dupa finalizarea stergerii contului din Firebase:</p>
+        <ul>
+            <li>❌ NU mai puteti face login cu email-ul si parola veche (contul nu mai exista)</li>
+            <li>✅ Email-ul devine LIBER pentru crearea unui cont NOU (daca doriti sa reveniti)</li>
+            <li>✅ Toate datele personale sunt STERSE COMPLET din Firebase (email, screenname, progres, fise)</li>
+            <li>✅ Session-urile active pe toate dispozitivele sunt INVALIDATE automat (logout fortat)</li>
+            <li>✅ Puteti reinstala aplicatia si crea un cont NOU cu ACELASI email (cont fresh de la zero)</li>
+        </ul>
 
-        <h3>Ce date rămân după dezinstalare?</h3>
-        <p><strong>Niciuna.</strong> Dezinstalarea aplicației șterge complet toate datele asociate cu Remi Romanesc de pe dispozitivul dumneavoastră.</p>
+        <h2>7. Intrebari frecvente (FAQ)</h2>
+        
+        <h3>Pot recupera datele dupa stergerea contului?</h3>
+        <p><strong>NU.</strong> Stergerea contului este IREVERSIBILA si PERMANENTA. Toate datele sunt sterse INSTANT si nu pot fi recuperate. Va recomandam sa fiti SIGURI inainte de a confirma cererea de stergere.</p>
+
+        <h3>Pot folosi acelasi email pentru un cont NOU dupa stergere?</h3>
+        <p><strong>DA.</strong> Dupa stergerea contului, email-ul devine liber si puteti crea un cont NOU cu acelasi email. Contul NOU va fi complet separat (progres zero, fise zero, screenname nou).</p>
+
+        <h3>Cat timp dureaza stergerea contului?</h3>
+        <p><strong>24-48 ore MAX</strong> de la confirmarea verificarii identitatii. De obicei procesam cererile in cateva ore, dar garantam finalizarea in maximum 48 ore lucratoare.</p>
+
+        <h3>Ce se intampla cu datele pe dispozitivul meu dupa stergere cont?</h3>
+        <p><strong>Cache local ramane.</strong> Datele locale (cache, session tokens) raman pe dispozitiv pana cand:</p>
+        <ul>
+            <li>Stergeti manual prin Setari Android → Aplicatii → Remi Romanesc → Sterge date</li>
+            <li>Dezinstalati aplicatia complet</li>
+            <li>Session tokens expira automat (30 zile inactivitate)</li>
+        </ul>
+
+        <h3>Trebuie sa am cont pentru a juca?</h3>
+        <p><strong>DA.</strong> Remi Romanesc necesita cont cu email verificat OBLIGATORIU pentru a accesa meniul principal si a juca. Nu exista optiune offline/demo fara cont.</p>
+
+        <h3>Pot sterge doar anumite date (ex: doar progres) fara a sterge contul?</h3>
+        <p><strong>NU.</strong> Stergerea este ALL-OR-NOTHING - fie stergeti TOATE datele contului (inclusiv email, screenname), fie pastrati totul. Nu oferim stergere partiala conform arhitecturii actuale.</p>
+
+        <h3>Daca nu confirm link-ul de verificare identitate?</h3>
+        <p><strong>Cererea expira.</strong> Link-ul de verificare expira dupa 24 ore. Daca nu confirmati, cererea de stergere este ANULATA si contul ramane activ. Trebuie sa trimiteti o noua cerere prin email.</p>
+
+        <h3>Pot anula cererea de stergere dupa ce am trimis email-ul?</h3>
+        <p><strong>DA, inainte de confirmare.</strong> Puteti anula cererea pur si simplu NU dand click pe link-ul de verificare identitate. Dupa expirarea link-ului (24h), cererea este anulata automat. DUPA confirmare prin link, stergerea este IREVERSIBILA.</p>
+
+        <h3>Datele mele sunt partajate cu alti utilizatori sau terti?</h3>
+        <p><strong>NU.</strong> Datele dumneavoastra sunt izolate complet prin Firestore Security Rules - DOAR dumneavoastra aveti acces la propriul document. Singura exceptie este infrastructura Google Firebase care stocheaza tehnic datele (vezi Politica de Confidentialitate).</p>
+
+        <h2>8. Contact pentru stergere cont</h2>
+        <div class="contact-info">
+            <h3>Informatii de contact</h3>
+            <ul>
+                <li><strong>Email stergere cont:</strong> <a href="mailto:contact@xvsgames.com">contact@xvsgames.com</a></li>
+                <li><strong>Subiect email:</strong> "Stergere Cont Remi Romanesc"</li>
+                <li><strong>Website:</strong> <a href="https://infamxvs.github.io" target="_blank">https://infamxvs.github.io</a></li>
+                <li><strong>Privacy Policy:</strong> <a href="https://infamxvs.github.io/remi-romanesc-privacy.html" target="_blank">Politica de Confidentialitate</a></li>
+            </ul>
+            <p><strong>Timp raspuns:</strong> Vom raspunde la cererea dumneavoastra de stergere in maximum 4 ore in zilele lucratoare (Luni-Vineri 9:00-18:00 EET). In weekend/sarbatori, raspunsul poate intarzia pana Luni.</p>
+            <p><strong>Limba comunicare:</strong> Puteti scrie in limba romana sau engleza.</p>
+            <p><strong>Template email recomandat:</strong></p>
+            <div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #3498db; margin-top: 10px;">
+                <p style="margin: 5px 0;"><strong>Subiect:</strong> Stergere Cont Remi Romanesc</p>
+                <p style="margin: 5px 0;"><strong>Continut:</strong></p>
+                <p style="margin: 5px 0;">Buna ziua,</p>
+                <p style="margin: 5px 0;">Doresc sa imi sterg contul Remi Romanesc asociat cu email-ul: <em>[email-ul dumneavoastra]</em></p>
+                <p style="margin: 5px 0;">Screenname: <em>[nume utilizator optional]</em></p>
+                <p style="margin: 5px 0;">Confirm ca inteleg ca aceasta actiune este ireversibila si toate datele vor fi sterse permanent.</p>
+                <p style="margin: 5px 0;">Multumesc!</p>
+            </div>
+        </div>
 
         <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
         
@@ -213,4 +316,31 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
