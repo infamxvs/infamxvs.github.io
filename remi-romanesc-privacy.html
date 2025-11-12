@@ -68,104 +68,232 @@
 <body>
     <div class="container">
         <h1>Politica de Confidentialitate - Remi Romanesc</h1>
-        <p class="last-updated">Ultima actualizare: 3 Noiembrie 2025</p>
+        <p class="last-updated">Ultima actualizare: 12 Noiembrie 2025</p>
 
         <h2>1. Introducere</h2>
-        <p>Bine ați venit la Remi Romanesc! Această Politică de Confidențialitate descrie modul în care aplicația noastră colectează, folosește și protejează informațiile dumneavoastră atunci când utilizați jocul nostru de cărți.</p>
+        <p>Bine ati venit la Remi Romanesc! Aceasta Politica de Confidentialitate descrie modul in care aplicatia noastra colecteaza, foloseste si protejeaza informatiile dumneavoastra atunci cand utilizati jocul nostru de carti.</p>
         
-        <p>Remi Romanesc este un joc de cărți tradițional românesc dezvoltat pentru dispozitive mobile Android. Ne angajăm să protejăm confidențialitatea utilizatorilor noștri.</p>
+        <p>Remi Romanesc este un joc de carti traditional romanesc dezvoltat pentru dispozitive mobile Android. Ne angajam sa protejam confidentialitatea utilizatorilor nostri conform reglementarilor GDPR (Regulament General privind Protectia Datelor).</p>
 
         <div class="important">
-            <strong>Important:</strong> Remi Romanesc este un joc offline care NU colectează, NU stochează și NU transmite date personale ale utilizatorilor.
+            <strong>Important:</strong> Remi Romanesc necesita crearea unui cont cu adresa de email pentru a juca. Datele contului dumneavoastra sunt stocate securizat pe serverele Google Firebase si sunt utilizate exclusiv pentru functionarea jocului si salvarea progresului.
         </div>
 
-        <h2>2. Informații pe care LE colectăm</h2>
-        <h3>2.1 Date personale</h3>
-        <p>Remi Romanesc <strong>NU colectează nicio dată personală</strong>, incluzând dar fără a se limita la:</p>
+        <h2>2. Informatii pe care LE colectam</h2>
+        <h3>2.1 Date personale obligatorii pentru cont</h3>
+        <p>Pentru a juca Remi Romanesc, trebuie sa creati un cont. Colectam urmatoarele date personale:</p>
         <ul>
-            <li>Nume sau informații de contact</li>
-            <li>Adrese de email</li>
-            <li>Locație geografică</li>
-            <li>Date de autentificare</li>
-            <li>Fotografii sau media</li>
+            <li><strong>Adresa de email:</strong> Folosita pentru autentificare si verificarea contului (OBLIGATORIE - trebuie verificata prin link email inainte de primul login)</li>
+            <li><strong>Parola:</strong> Stocata criptat (hash) pentru securitatea contului - noi NU avem acces la parola in clar</li>
+            <li><strong>User ID unic (UID):</strong> Generat automat de Firebase pentru identificarea contului</li>
+            <li><strong>Screenname (nume utilizator):</strong> Numele ales de dumneavoastra pentru afisare in joc</li>
+            <li><strong>Avatar ID:</strong> ID-ul avatar-ului selectat pentru personalizare profil</li>
+            <li><strong>Data crearii contului:</strong> Timestamp cand contul a fost creat</li>
+            <li><strong>Data ultimei autentificari:</strong> Timestamp ultima data cand v-ati logat</li>
+        </ul>
+
+        <h3>2.2 Date progres in joc</h3>
+        <p>Salvam automat progresul dumneavoastra pentru persistenta cross-device (puteti juca de pe orice dispozitiv cu acelasi cont):</p>
+        <ul>
+            <li><strong>Total fise (sold virtual):</strong> Numarul de fise castigate/pierdute in joc - se actualizeaza automat dupa fiecare runda (inclusiv solduri negative pentru datorii virtuale)</li>
+            <li><strong>Istoric joc:</strong> Salvare automata fise dupa fiecare runda (indiferent daca castigati sau pierdeti)</li>
+        </ul>
+
+        <h3>2.3 Date tehnice automate</h3>
+        <p>Firebase colecteaza automat anumite date tehnice necesare pentru functionare:</p>
+        <ul>
+            <li><strong>Session tokens:</strong> Pentru mentinerea sesiunii de login active</li>
+            <li><strong>IP address:</strong> Colectat de Firebase pentru securitate si anti-fraud (NU este accesat de noi direct)</li>
+            <li><strong>Device info:</strong> Tip dispozitiv, versiune OS - folosite de Firebase pentru compatibilitate (NU sunt salvate in baza noastra de date)</li>
+        </ul>
+
+        <h3>2.4 Date pe care NU le colectam</h3>
+        <p>Pentru transparenta, mentionam explicit ce NU colectam:</p>
+        <ul>
+            <li>Locatie geografica (GPS, adresa)</li>
             <li>Contacte din agenda telefonului</li>
+            <li>Fotografii sau media de pe dispozitiv</li>
+            <li>Acces la camera sau microfon</li>
+            <li>Date de plata (jocul NU are achizitii in-app)</li>
+            <li>Date analytics comportament (NU folosim Google Analytics sau servicii similare)</li>
         </ul>
 
-        <h3>2.2 Date de utilizare și tehnice</h3>
-        <p>Aplicația NU colectează date analitice sau de utilizare. Jocul funcționează complet offline și nu transmite informații către servere externe.</p>
-
-        <h3>2.3 Date stocate local</h3>
-        <p>Singurele informații care pot fi salvate pe dispozitivul dumneavoastră sunt:</p>
+        <h2>3. Cum folosim informatiile</h2>
+        <p>Datele colectate sunt folosite EXCLUSIV pentru functionarea jocului si salvarea progresului. Scopurile specifice sunt:</p>
         <ul>
-            <li><strong>Preferințe de joc:</strong> Setări pentru configurația jocului (Joker Lansat, Joker Schimbat)</li>
-            <li><strong>Progres în joc:</strong> Scoruri ale rundelor și meciurilor curente (salvate doar local)</li>
+            <li><strong>Autentificare si securitate cont:</strong> Email si parola pentru login securizat, verificare email obligatorie pentru activare cont</li>
+            <li><strong>Personalizare experienta:</strong> Screenname si avatar pentru afisare in joc</li>
+            <li><strong>Salvare progres cross-device:</strong> Total fise pentru continuare joc de pe orice dispozitiv cu acelasi cont</li>
+            <li><strong>Persistenta date:</strong> Salvare automata dupa fiecare runda pentru a nu pierde progresul</li>
+            <li><strong>Izolare date utilizatori:</strong> Fiecare utilizator are acces DOAR la propriile date (Firestore Security Rules garanteaza izolare)</li>
         </ul>
-        <p>Aceste date sunt stocate <strong>exclusiv pe dispozitivul dumneavoastră</strong> și nu sunt transmise nicăieri. Nu avem acces la aceste informații.</p>
-
-        <h2>3. Cum folosim informațiile</h2>
-        <p>Deoarece nu colectăm date personale, nu există utilizare a informațiilor dumneavoastră personale.</p>
-        <p>Datele salvate local pe dispozitiv sunt folosite doar pentru:</p>
+        <p><strong>NU folosim datele pentru:</strong></p>
         <ul>
-            <li>Funcționarea jocului (calcularea scorurilor, gestionarea rundelor)</li>
-            <li>Salvarea preferințelor de joc pentru sesiuni viitoare</li>
+            <li>Marketing sau publicitate</li>
+            <li>Vanzare sau inchiriere catre terti</li>
+            <li>Profilare comportament utilizatori</li>
+            <li>Spam sau comunicari nesolicitate</li>
         </ul>
 
-        <h2>4. Partajarea datelor cu terțe părți</h2>
-        <p><strong>Nu partajăm nicio dată cu terțe părți</strong> deoarece nu colectăm date personale.</p>
-        
-        <h3>4.1 Servicii terțe</h3>
-        <p>Aplicația noastră <strong>NU folosește</strong>:</p>
+        <h2>4. Partajarea datelor cu terte parti</h2>
+        <h3>4.1 Google Firebase (Third-Party Service Provider)</h3>
+        <p>Datele dumneavoastra sunt stocate pe <strong>Google Firebase</strong> (proprietate Google LLC), care actioneaza ca furnizor de servicii cloud. Firebase are acces la datele tehnice pentru furnizarea serviciilor de:</p>
         <ul>
-            <li>Servicii de analiză (Analytics)</li>
-            <li>Rețele publicitare</li>
-            <li>Servicii de crash reporting</li>
-            <li>Rețele sociale</li>
-            <li>Sisteme de autentificare terțe</li>
+            <li><strong>Firebase Authentication:</strong> Gestionarea conturilor si autentificare securizata</li>
+            <li><strong>Cloud Firestore:</strong> Baza de date pentru stocarea progresului in joc</li>
         </ul>
+        <p>Firebase opereaza conform propriei Politici de Confidentialitate si este certificat pentru conformitate GDPR. Mai multe detalii: <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></p>
+
+        <h3>4.2 Localizare date (Data Residency)</h3>
+        <p>Datele dumneavoastra sunt stocate pe serverele Google Cloud localizate in <strong>Europa (eu-west)</strong> pentru conformitate GDPR.</p>
+
+        <h3>4.3 Servicii pe care NU le folosim</h3>
+        <p>Pentru transparenta, confirmam ca aplicatia <strong>NU foloseste</strong>:</p>
+        <ul>
+            <li>Servicii de analiza comportament (Google Analytics, Mixpanel etc.)</li>
+            <li>Retele publicitare (AdMob, Facebook Ads etc.)</li>
+            <li>Servicii de crash reporting (Crashlytics - dezactivat intentionat)</li>
+            <li>Retele sociale (Facebook Login, Google Sign-In)</li>
+            <li>Sisteme de plati terțe (jocul nu are achizitii in-app)</li>
+        </ul>
+
+        <h3>4.4 Divulgare in cazuri speciale</h3>
+        <p>Putem divulga datele dumneavoastra DOAR in urmatoarele situatii exceptionale:</p>
+        <ul>
+            <li><strong>Obligatie legala:</strong> Daca suntem obligati prin lege sau ordin judiciar</li>
+            <li><strong>Protejare drepturi:</strong> Pentru a proteja drepturile, proprietatea sau siguranta Dan Studio, utilizatorilor sau publicului</li>
+            <li><strong>Prevenire frauda:</strong> Detectarea si prevenirea activitatilor frauduloase sau abuzive</li>
+        </ul>
+        <p>In aceste cazuri, vom divulga DOAR datele strict necesare si conform reglementarilor GDPR.</p>
 
         <h2>5. Securitatea datelor</h2>
-        <p>Deoarece aplicația funcționează complet offline și nu colectează date personale, nu există riscuri de securitate asociate cu transmiterea sau stocarea datelor pe servere externe.</p>
-        <p>Datele salvate local pe dispozitiv sunt protejate de sistemul de securitate al dispozitivului dumneavoastră Android.</p>
-
-        <h2>6. Drepturile dumneavoastră</h2>
-        <p>Deoarece nu colectăm date personale, nu există date personale de accesat, corectat sau șters din sistemele noastre.</p>
+        <p>Luam securitatea datelor dumneavoastra foarte in serios. Implementam multiple masuri de protectie:</p>
         
-        <h3>6.1 Ștergerea datelor locale</h3>
-        <p>Puteți șterge oricând datele salvate local pe dispozitiv prin:</p>
+        <h3>5.1 Securitate Firebase</h3>
         <ul>
-            <li>Dezinstalarea aplicației</li>
-            <li>Ștergerea datelor aplicației din Setări → Aplicații → Remi Romanesc → Stocare → Șterge date</li>
+            <li><strong>Encryption in transit:</strong> Toate comunicatiile intre aplicatie si Firebase folosesc HTTPS/TLS pentru criptare</li>
+            <li><strong>Encryption at rest:</strong> Datele stocate pe serverele Firebase sunt criptate automat</li>
+            <li><strong>Parole criptate:</strong> Parolele sunt stocate DOAR ca hash (bcrypt) - noi NU vedem NICIODATA parola in clar</li>
+            <li><strong>Session management:</strong> Tokeni de sesiune cu expirare automata pentru siguranta</li>
         </ul>
 
-        <h2>7. Confidențialitatea copiilor</h2>
-        <p>Remi Romanesc este potrivit pentru toate vârstele. Deoarece nu colectăm date personale, nu există riscuri speciale pentru copiii sub 13 ani.</p>
-        <p>Nu colectăm în mod intenționat informații personale de la copii sub 13 ani.</p>
-
-        <h2>8. Modificări ale Politicii de Confidențialitate</h2>
-        <p>Ne rezervăm dreptul de a actualiza această Politică de Confidențialitate în orice moment. Orice modificări vor fi publicate pe această pagină cu data actualizării.</p>
-        <p>Vă recomandăm să verificați periodic această politică pentru a fi la curent cu orice schimbări.</p>
-
-        <h2>9. Informații despre aplicație</h2>
+        <h3>5.2 Firestore Security Rules</h3>
+        <p>Implementam reguli stricte de izolare date la nivel de baza de date:</p>
         <ul>
-            <li><strong>Nume aplicație:</strong> Remi Romanesc</li>
+            <li>Fiecare utilizator poate accesa DOAR propriul document (verificare UID)</li>
+            <li>Imposibil de accesat datele altor utilizatori chiar daca cunoasteti UID-ul lor</li>
+            <li>Operatii read/write permise DOAR pentru utilizatorul autentificat corespunzator</li>
+        </ul>
+
+        <h3>5.3 Infrastructura Google Cloud</h3>
+        <p>Firebase opereaza pe infrastructura securizata Google Cloud Platform cu:</p>
+        <ul>
+            <li>Certificari ISO 27001, SOC 2, SOC 3</li>
+            <li>Redundanta geografica pentru backup automat</li>
+            <li>Monitorizare continua pentru detectare intruziuni</li>
+        </ul>
+
+        <h3>5.4 Limitarile securitatii</h3>
+        <p>Nicio metoda de transmitere sau stocare electronica nu este 100% sigura. In timp ce folosim masuri standard din industrie pentru protectia datelor, nu putem garanta securitate absoluta impotriva hackerilor sau breaches de securitate majore ale infrastructurii Google.</p>
+
+        <h2>6. Drepturile dumneavoastra (GDPR)</h2>
+        <p>Conform Regulamentului General privind Protectia Datelor (GDPR), aveti urmatoarele drepturi asupra datelor personale:</p>
+        
+        <h3>6.1 Dreptul de acces</h3>
+        <p>Puteti solicita o copie a tuturor datelor personale pe care le detinem despre dumneavoastra. Trimiteti email la <a href="mailto:contact@xvsgames.com">contact@xvsgames.com</a> cu subiect "Cerere Acces Date".</p>
+
+        <h3>6.2 Dreptul la rectificare</h3>
+        <p>Puteti corecta anumite date direct din aplicatie (screenname, avatar). Pentru alte modificari (email), contactati-ne la adresa de mai sus.</p>
+
+        <h3>6.3 Dreptul la stergere ("dreptul de a fi uitat")</h3>
+        <p>Puteti cere stergerea COMPLETA a contului si a tuturor datelor asociate. Vezi procedura detaliata in <a href="https://infamxvs.github.io/remi-romanesc-data-deletion.html" target="_blank">Politica de Stergere Date</a>.</p>
+
+        <h3>6.4 Dreptul la portabilitate</h3>
+        <p>Puteti solicita datele dumneavoastra intr-un format structurat, utilizat in mod curent si care poate fi citit automat (JSON). Trimiteti email cu subiect "Cerere Portabilitate Date".</p>
+
+        <h3>6.5 Dreptul la retragerea consimtamantului</h3>
+        <p>Puteti retrage oricand consimtamantul pentru procesarea datelor prin stergerea contului. Acest lucru va rezulta in imposibilitatea utilizarii jocului (contul este OBLIGATORIU).</p>
+
+        <h3>6.6 Dreptul la opozitie si restrictionare</h3>
+        <p>Puteti solicita restrictionarea procesarii datelor, dar acest lucru poate afecta functionarea jocului. Stergerea contului este singura metoda completa de oprire a procesarii.</p>
+
+        <h3>6.7 Depunerea unei plangeri</h3>
+        <p>Aveti dreptul de a depune o plangere la autoritatea de supraveghere pentru protectia datelor din tara dumneavoastra daca considerati ca prelucram datele in mod necorespunzator.</p>
+
+        <h2>7. Retentie date (Cat timp pastram datele)</h2>
+        <ul>
+            <li><strong>Date cont activ:</strong> Pastrate CAT TIMP contul este activ (nu exista stergere automata pentru inactivitate)</li>
+            <li><strong>Date cont sters:</strong> Stergere INSTANT COMPLETA la cerere - ZERO log-uri pastrate dupa confirmare stergere</li>
+            <li><strong>Session tokens:</strong> Expira automat dupa 30 zile inactivitate (trebuie re-login)</li>
+            <li><strong>Email verification tokens:</strong> Expira dupa 24 ore (necesita re-trimitere)</li>
+        </ul>
+
+        <h2>8. Confidentialitatea copiilor (COPPA Compliance)</h2>
+        <p><strong>Remi Romanesc NU este destinat copiilor sub 13 ani.</strong></p>
+        <ul>
+            <li>Nu colectam in mod intentionat date de la copii sub 13 ani</li>
+            <li>Daca descoperim ca am colectat accidental date de la un copil sub 13 ani, vom sterge imediat acele date</li>
+            <li>Parintii care descopera ca copilul lor ne-a furnizat date personale sunt rugati sa ne contacteze imediat la <a href="mailto:contact@xvsgames.com">contact@xvsgames.com</a></li>
+        </ul>
+        <p>Jocul necesita verificare email, ceea ce presupune ca utilizatorul are varsta legala pentru a detine o adresa de email.</p>
+
+        <h2>9. Modificari ale Politicii de Confidentialitate</h2>
+        <p>Ne rezervam dreptul de a actualiza aceasta Politica de Confidentialitate in orice moment pentru a reflecta schimbari in practicile noastre sau din motive legale/operationale.</p>
+        <ul>
+            <li><strong>Notificare schimbari:</strong> Modificarile majore vor fi anuntate prin notificare in aplicatie sau email</li>
+            <li><strong>Data efectiva:</strong> Modificarile devin efective imediat dupa publicare pe aceasta pagina</li>
+            <li><strong>Verificare periodica:</strong> Va recomandam sa verificati periodic aceasta politica pentru a fi la curent cu orice schimbari</li>
+            <li><strong>Continuare utilizare = acceptare:</strong> Folosirea continua a aplicatiei dupa modificari constituie acceptarea noii politici</li>
+        </ul>
+
+        <h2>10. Transferuri internationale de date</h2>
+        <p>Datele dumneavoastra pot fi transferate si procesate pe servere localizate in afara tarii dumneavoastra de rezidenta:</p>
+        <ul>
+            <li><strong>Localizare primara:</strong> Serverele Firebase sunt in Europa (eu-west) pentru utilizatori europeni</li>
+            <li><strong>Backup geografic:</strong> Google mentine copii redundante pe multiple locatii pentru siguranta</li>
+            <li><strong>Protectie transfer:</strong> Toate transferurile sunt protejate prin mecanisme adecvate GDPR (Standard Contractual Clauses)</li>
+        </ul>
+
+        <h2>11. Baza legala pentru procesare (GDPR Article 6)</h2>
+        <p>Procesam datele dumneavoastra pe baza urmatoarelor temeiuri legale:</p>
+        <ul>
+            <li><strong>Consimtamant (Article 6.1.a):</strong> Prin crearea contului, consimtiti explicit la colectarea si procesarea datelor</li>
+            <li><strong>Executare contract (Article 6.1.b):</strong> Procesarea este necesara pentru furnizarea serviciilor jocului</li>
+            <li><strong>Interes legitim (Article 6.1.f):</strong> Prevenirea fraudei si asigurarea securitatii sistemului</li>
+        </ul>
+
+        <h2>12. Informatii despre aplicatie</h2>
+        <ul>
+            <li><strong>Nume aplicatie:</strong> Remi Romanesc</li>
             <li><strong>Dezvoltator:</strong> Dan Studio</li>
-            <li><strong>Platformă:</strong> Android</li>
-            <li><strong>Tip joc:</strong> Joc de cărți offline, single-player cu AI</li>
-            <li><strong>Funcționare:</strong> Complet offline, fără conexiune la internet necesară</li>
+            <li><strong>Platforma:</strong> Android (Google Play Store)</li>
+            <li><strong>Tip joc:</strong> Joc de carti online cu cont obligatoriu, single-player cu AI</li>
+            <li><strong>Functionare:</strong> Necesita conexiune internet pentru autentificare si salvare progres</li>
+            <li><strong>Versiune:</strong> 1.0.7+ (sistemul de conturi implementat din versiunea 1.0.7)</li>
+            <li><strong>Backend:</strong> Firebase Authentication + Cloud Firestore (Google LLC)</li>
         </ul>
 
-        <h2>10. Contact</h2>
+        <h2>13. Contact</h2>
         <div class="contact-info">
-            <p>Dacă aveți întrebări sau preocupări cu privire la această Politică de Confidențialitate sau despre aplicația Remi Romanesc, ne puteți contacta:</p>
+            <p>Daca aveti intrebari sau preocupari cu privire la aceasta Politica de Confidentialitate sau despre procesarea datelor dumneavoastra, ne puteti contacta:</p>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:contact@xvsgames.com">contact@xvsgames.com</a></li>
                 <li><strong>Website:</strong> <a href="https://infamxvs.github.io" target="_blank">https://infamxvs.github.io</a></li>
+                <li><strong>Data Deletion:</strong> <a href="https://infamxvs.github.io/remi-romanesc-data-deletion.html" target="_blank">Politica de Stergere Date</a></li>
             </ul>
-            <p>Vom răspunde la întrebările dumneavoastră în cel mai scurt timp posibil.</p>
+            <p><strong>Timp de raspuns:</strong> Vom raspunde la solicitarile GDPR in maximum 30 zile calendaristice conform legii. Pentru intrebari generale, de obicei raspundem in 24-48 ore.</p>
+            <p><strong>Limba comunicare:</strong> Comunicarea se poate face in limba romana sau engleza.</p>
         </div>
 
-        <h2>11. Consimțământ</h2>
-        <p>Prin utilizarea aplicației Remi Romanesc, confirmați că ați citit și acceptat această Politică de Confidențialitate.</p>
+        <h2>14. Consimtamant</h2>
+        <p>Prin crearea unui cont si utilizarea aplicatiei Remi Romanesc, confirmati ca:</p>
+        <ul>
+            <li>Ati citit si inteles aceasta Politica de Confidentialitate</li>
+            <li>Acceptati colectarea si procesarea datelor dumneavoastra conform descrierii de mai sus</li>
+            <li>Aveti varsta legala (peste 13 ani) pentru a furniza consimtamant</li>
+            <li>Intelegeti ca puteti retrage oricand consimtamantul prin stergerea contului</li>
+        </ul>
+        <p><strong>Fara cont nu puteti folosi aplicatia.</strong> Contul cu email verificat este OBLIGATORIU pentru accesul la joc conform arhitecturii actuale.</p>
 
         <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
         
@@ -176,4 +304,31 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
