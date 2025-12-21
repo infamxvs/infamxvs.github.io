@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.2.15",
-  "minimumVersion": "1.2.15",
+  "latestVersion": "1.2.16",
+  "minimumVersion": "1.2.16",
   "storeLinks": {
     "android": "https://play.google.com/store/apps/details?id=com.xvs.RemiRomanesc&pcampaignid=web_share",
     "ios": "https://apps.apple.com/app/idXXXXXXXXXX",
@@ -9,6 +9,7 @@
   "updateMessage": "O versiune noua a jocului este disponibila! Te rugam sa actualizezi pentru a continua.",
   "forceUpdate": true
 }
+
 
 
 
