@@ -1,0 +1,11 @@
+{
+  "latestVersion": "1.0.0",
+  "minimumVersion": "1.0.0",
+  "forceUpdate": false,
+  "updateMessage": "O versiune nouă ECONOMAT este disponibilă. Actualizează pentru cele mai noi funcții și corecții.",
+  "storeLinks": {
+    "android": "https://play.google.com/store/apps/details?id=com.xvs.economat",
+    "ios": "",
+    "windows": ""
+  }
+}
