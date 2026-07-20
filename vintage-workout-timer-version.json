@@ -1,9 +1,1 @@
-{
-  "latestVersion": "1.0.4",
-  "storeLinks": {
-    "android": "https://play.google.com/store/apps/details?id=com.xvs.vintageWorkoutTimer",
-    "ios": "",
-    "windows": ""
-  },
-  "updateMessage": "A new version of Vintage Workout Timer is available with improvements and fixes."
-}
+{"latestVersion":"1.0.4","storeLinks":{"android":"https://play.google.com/store/apps/details?id=com.xvs.vintageWorkoutTimer","ios":"https://apps.apple.com/app/id6792735858","windows":""},"updateMessage":"A new version of Vintage Workout Timer is available with improvements and fixes."}
