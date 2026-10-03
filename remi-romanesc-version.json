@@ -7,70 +7,13 @@
     "windows": "ms-windows-store://pdp/?productid=9N5860K018PG"
   },
   "updateMessage": "O versiune noua a jocului este disponibila! Te rugam sa actualizezi pentru a continua.",
-  "forceUpdate": true
+  "forceUpdate": true,
+  "platforms": {
+    "windows": {
+      "latestVersion": "2.0.0",
+      "minimumVersion": "2.0.0",
+      "forceUpdate": true,
+      "updateMessage": "O versiune nouă este disponibilă în Microsoft Store. Actualizează jocul pentru a continua."
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
