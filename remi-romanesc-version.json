@@ -16,8 +16,8 @@
       "updateMessage": "O versiune nouă este disponibilă în Microsoft Store. Actualizează jocul pentru a continua."
     },
     "android": {
-      "latestVersion": "2.0.1",
-      "minimumVersion": "2.0.1",
+      "latestVersion": "2.0.2",
+      "minimumVersion": "2.0.2",
       "forceUpdate": true,
       "updateMessage": "O versiune nouă este disponibilă în Google Play. Actualizează jocul pentru a continua."
     },
