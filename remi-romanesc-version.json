@@ -10,8 +10,8 @@
   "forceUpdate": true,
   "platforms": {
     "windows": {
-      "latestVersion": "2.0.0",
-      "minimumVersion": "2.0.0",
+      "latestVersion": "2.0.1",
+      "minimumVersion": "2.0.1",
       "forceUpdate": true,
       "updateMessage": "O versiune nouă este disponibilă în Microsoft Store. Actualizează jocul pentru a continua."
     },
