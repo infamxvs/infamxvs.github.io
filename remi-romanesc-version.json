@@ -16,8 +16,8 @@
       "updateMessage": "REMINET 2.0 este disponibil în Microsoft Store. Actualizează jocul pentru a continua."
     },
     "android": {
-      "latestVersion": "2.2.1",
-      "minimumVersion": "2.2.1",
+      "latestVersion": "2.2.2",
+      "minimumVersion": "2.2.2",
       "forceUpdate": true,
       "updateMessage": "REMINET 2.0 este disponibil în Google Play. Actualizează jocul pentru a continua."
     },
