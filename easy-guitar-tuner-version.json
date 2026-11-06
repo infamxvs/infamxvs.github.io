@@ -5,5 +5,9 @@
     "ios": "https://apps.apple.com/app/id6784120194",
     "windows": "ms-windows-store://pdp/?productId=XXXXXXXXXXXX"
   },
-  "updateMessage": "Please update to the latest version!"
+  "updateMessage": "Please update to the latest version!",
+  "latestVersions": {
+    "android": "1.0.6",
+    "ios": "1.0.6"
+  }
 }
