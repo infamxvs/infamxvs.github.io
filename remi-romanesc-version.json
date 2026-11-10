@@ -8,8 +8,8 @@
       "updateMessage": "REMINET 2.0 este disponibil în Microsoft Store. Actualizează jocul pentru a continua."
     },
     "android": {
-      "latestVersion": "2.2.2",
-      "minimumVersion": "2.2.2",
+      "latestVersion": "2.2.4",
+      "minimumVersion": "2.2.4",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.xvs.RemiRomanesc&pcampaignid=web_share",
       "forceUpdate": true,
       "updateMessage": "REMINET 2.0 este disponibil în Google Play. Actualizează jocul pentru a continua."
