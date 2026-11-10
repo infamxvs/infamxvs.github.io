@@ -1,8 +1,8 @@
 {
   "platforms": {
     "windows": {
-      "latestVersion": "2.2.2",
-      "minimumVersion": "2.2.2",
+      "latestVersion": "2.2.3",
+      "minimumVersion": "2.2.3",
       "storeUrl": "ms-windows-store://pdp/?productid=9N5860K018PG",
       "forceUpdate": true,
       "updateMessage": "REMINET 2.0 este disponibil în Microsoft Store. Actualizează jocul pentru a continua."
