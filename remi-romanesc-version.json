@@ -1,15 +1,15 @@
 {
   "platforms": {
     "windows": {
-      "latestVersion": "2.2.5",
-      "minimumVersion": "2.2.5",
+      "latestVersion": "2.2.6",
+      "minimumVersion": "2.2.6",
       "storeUrl": "ms-windows-store://pdp/?productid=9N5860K018PG",
       "forceUpdate": true,
       "updateMessage": "REMINET 2.0 este disponibil în Microsoft Store. Actualizează jocul pentru a continua."
     },
     "android": {
-      "latestVersion": "2.2.5",
-      "minimumVersion": "2.2.5",
+      "latestVersion": "2.2.6",
+      "minimumVersion": "2.2.6",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.xvs.RemiRomanesc&pcampaignid=web_share",
       "forceUpdate": true,
       "updateMessage": "REMINET 2.0 este disponibil în Google Play. Actualizează jocul pentru a continua."
