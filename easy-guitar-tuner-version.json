@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.0.7",
+  "latestVersion": "1.2.0",
   "storeLinks": {
     "android": "https://play.google.com/store/apps/details?id=com.xvs.EasyGuitarTuner",
     "ios": "https://apps.apple.com/app/id6784120194",
@@ -8,6 +8,6 @@
   "updateMessage": "Please update to the latest version!",
   "latestVersions": {
     "android": "1.2.0",
-    "ios": "1.0.7"
+    "ios": "1.2.0"
   }
 }
